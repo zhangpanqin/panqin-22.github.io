@@ -2,4 +2,4 @@ I am an incoming CS PhD student at UIUC 👉 PL/FM/SE. Hopefully, I would be adv
 
 I am interested various topics in programming language and software engineering, including software testing and verification. Particularly, I feel excited about program synthesis, and am willing to explore its application to various domains. 
 
-![](https://visitor-badge.glitch.me/badge?page_id=yuxiang630.wei)
+![](https://visitor-badge.deta.dev/badge?page_id=yuxiang630.wei)
