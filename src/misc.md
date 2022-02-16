@@ -10,4 +10,3 @@
 - [Agda](https://agda.readthedocs.io/en/v2.6.1.1/)
 - More LaTeX to build my own class for note taking..
 - [Haskell book](https://haskellbook.com/).
-- [Font license](https://www.youtube.com/watch?v=bypG_dgyLHI)
