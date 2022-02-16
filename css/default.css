@@ -1,13 +1,13 @@
 html {
   /* font-size: 80%; */
-  font-family: "Palatino", serif;
+  font-family: "Libertine", serif;
 }
 
 header {
   border-bottom: 0.2rem solid #000;
   margin: 0 0 3rem;
   padding: 1.2rem 0;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", 'Helvetica', sans-serif;
 }
 
 nav a {
@@ -31,12 +31,12 @@ footer {
 
 h1 {
   font-size: 20pt;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", 'Helvetica', sans-serif;
 }
 
 h2 {
   font-size: 18pt;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", 'Helvetica', sans-serif;
 }
 
 article .header {
@@ -189,18 +189,46 @@ nav {
 #yuxiang {
   font-size: 25pt;
   font-weight: bold;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
   color: rgb(0, 80, 115);
 }
 
 #yuxiang-cn {
   font-size: 25pt;
   /* font-weight: bold; */
-  font-family: "STSong";
+  font-family: "STSong", "SimSun", serif;
   color: rgb(0, 80, 115);
 }
 
 ul li {
   /* font-family: monospace; */
   padding: 4px 0 0 0;
+}
+
+@font-face {
+  font-family: 'Libertine'; /* normal */
+  src: url('/assets/fonts/LinLibertine_R.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Libertine'; /* italic */
+  src: url('/assets/fonts/LinLibertine_RI.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Libertine'; /* bold */
+  src: url('/assets/fonts/LinLibertine_RB.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Libertine'; /* bold */
+  src: url('/assets/fonts/LinLibertine_RBI.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
 }
