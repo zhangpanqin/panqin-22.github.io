@@ -1,4 +1,4 @@
-# Misc
+<!-- # Misc
 
 ## What I would like to learn
 
@@ -9,4 +9,4 @@
 - [Software Foundations](https://softwarefoundations.cis.upenn.edu/).
 - [Agda](https://agda.readthedocs.io/en/v2.6.1.1/)
 - More LaTeX to build my own class for note taking..
-- [Haskell book](https://haskellbook.com/).
+- [Haskell book](https://haskellbook.com/). -->
