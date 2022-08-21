@@ -1,0 +1,11 @@
+jobs:
+    my_job:
+        ...
+        steps:
+            - actions/checkout@v2
+            # Make sure the @v0.5.4 matches the current version of the
+            # action 
+            - uses: webfactory/ssh-agent@v0.5.4
+              with:
+                  ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+            - ssh yuxiang99@yuxiang99.web.illinois.edu "echo 999 > test"
