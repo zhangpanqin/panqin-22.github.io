@@ -1,11 +1,15 @@
+name: remote ssh command
+on: [push]
 jobs:
-    my_job:
-        ...
-        steps:
-            - actions/checkout@v2
-            # Make sure the @v0.5.4 matches the current version of the
-            # action 
-            - uses: webfactory/ssh-agent@v0.5.4
-              with:
-                  ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-            - ssh yuxiang99@yuxiang99.web.illinois.edu "echo 999 > test"
+  build:
+    name: Sync
+    runs-on: ubuntu-latest
+    steps:
+    - name: executing remote ssh commands using ssh key
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.KEY }}
+        port: ${{ secrets.PORT }}
+        script: echo 999 > test
