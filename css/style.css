@@ -47,12 +47,12 @@ p {
 }
 
 a {
-  color: #1a1a1a;
+  color: darkcyan;
 }
 
-a:visited {
-  color: #1a1a1a;
-}
+/* a:visited {
+  color: #555;
+} */
 
 img {
   max-width: 100%;
@@ -242,10 +242,10 @@ div.csl-indent {
 }
 
 footer {
-  margin-top: 3rem;
+  margin-top: 2rem;
   padding: 1.2rem 0;
-  border-top: 0.2rem solid #000;
-  font-size: 1.2rem;
+  /* border-top: 0.2rem solid #000; */
+  font-size: 90%;
   color: #555;
   text-align: center;
 }
@@ -360,5 +360,20 @@ footer {
   body {
     font-size: 0.9em;
     padding: 1em;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background: #222;
+    color: white;
+  }
+
+  a {
+    color: lightpink;
+  }
+
+  footer {
+    color: lightgrey;
   }
 }
