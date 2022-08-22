@@ -1,15 +1,20 @@
 name: remote ssh command
-on: [push]
+on:
+  workflow_run:
+    workflows: ["Deploy website"]
+    types:
+      - completed
+
 jobs:
-  build:
+  sync_illinois_server:
     name: Sync
     runs-on: ubuntu-latest
     steps:
-    - name: executing remote ssh commands using ssh key
-      uses: appleboy/ssh-action@master
-      with:
-        host: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
-        key: ${{ secrets.KEY }}
-        port: ${{ secrets.PORT }}
-        script: ./sync.sh
+      - name: executing remote ssh commands using ssh key
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.KEY }}
+          port: ${{ secrets.PORT }}
+          script: ./sync.sh
