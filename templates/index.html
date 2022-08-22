@@ -1,40 +1,42 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="$lang$" xml:lang="$lang$"$if(dir)$ dir="$dir$"$endif$>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="$lang$" xml:lang="$lang$" $if(dir)$ dir="$dir$" $endif$>
+
 <head>
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-$for(author-meta)$
+  $for(author-meta)$
   <meta name="author" content="$author-meta$" />
-$endfor$
-$if(date-meta)$
+  $endfor$
+  $if(date-meta)$
   <meta name="dcterms.date" content="$date-meta$" />
-$endif$
-$if(keywords)$
+  $endif$
+  $if(keywords)$
   <meta name="keywords" content="$for(keywords)$$keywords$$sep$, $endfor$" />
-$endif$
-$if(description-meta)$
+  $endif$
+  $if(description-meta)$
   <meta name="description" content="$description-meta$" />
-$endif$
+  $endif$
   <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
   <link rel="stylesheet" href="css/style.css" />
-$if(math)$
+  $if(math)$
   $math$
-$endif$
-$for(header-includes)$
+  $endif$
+  $for(header-includes)$
   $header-includes$
-$endfor$
+  $endfor$
 </head>
+
 <body>
-<!-- <h1>$name$</h1> -->
+  <!-- <h1>$name$</h1> -->
   <div class='author-info'>
     <img id="avatar" src='images/yuxiang.jpg'>
     <div class='author-details'>
       <div id='yuxiang'>$name$</div>
       <ul class="author-contact">
         <li>Email: <a href="mailto:$email_school$">$email_school$</a></li>
-        <li>GitHub: <a href="$github_url$">$github_id$</a> 
-        <li>Twitter: <a href="$twitter_url$">$twitter_id$</a> 
+        <li>GitHub: <a href="$github_url$">$github_id$</a>
+        <li>Twitter: <a href="$twitter_url$">$twitter_id$</a>
           <!-- <a href='/assets/YuxiangWei-CV.pdf'>CV</a> -->
           <!-- <a href='www.bing.com'>Twitter</a> -->
         </li>
@@ -43,9 +45,10 @@ $endfor$
     </div>
   </div>
 
-$body$
-$for(include-after)$
-$include-after$
-$endfor$
+  $body$
+  $for(include-after)$
+  $include-after$
+  $endfor$
 </body>
+
 </html>
