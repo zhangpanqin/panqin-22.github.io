@@ -20,7 +20,7 @@ I am interested in various topics on programming language and software engineeri
 
 ## News
 
-- Aug, 2022: Simplify the site generation: Move from [Hakyll](https://jaspervdj.be/hakyll/) to [Pandoc](https://jaspervdj.be/hakyll/) (with CI support).
+- Aug, 2022: Simplify the site generation: Move from [Hakyll](https://jaspervdj.be/hakyll/) to [Pandoc](https://pandoc.org/index.html) (with CI support).
 - Feb, 2022: Finally built this website using [Hakyll](https://jaspervdj.be/hakyll/) with my POOR Haskell and web knowledge 😮‍💨.. I will keep learning to make it better.
 - Feb, 2022: I feel excited to join UIUC's iSE group!!
 - Dec, 2021: Our paper on fuzzing tensor compilers is accepted by [OOPSLA'22](https://2022.splashcon.org/track/splash-2022-oopsla)!
