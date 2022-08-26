@@ -1,5 +1,5 @@
 ---
-pagetitle: Yuxiang Wei's Personal Website
+pagetitle: Yuxiang's Personal Website
 name: Yuxiang Wei
 avatar: ./images/yuxiang.jpg
 email_school: ywei40@illinois.edu
