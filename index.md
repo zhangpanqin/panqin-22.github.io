@@ -16,7 +16,7 @@ I'm a first year CS PhD student at UIUC 👉 [PL/FM/SE](https://cs.illinois.edu/
 
 I am interested in various topics on programming language and software engineering, including software testing and verification. Particularly, I feel excited about **program synthesis**, and am willing to explore its application to various domains. 
 
-![](https://visitor-badge.deta.dev/badge?page_id=yuxiang630.wei)
+<!-- ![](https://visitor-badge.deta.dev/badge?page_id=yuxiang630.wei) -->
 
 ## News
 
