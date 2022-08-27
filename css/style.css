@@ -257,7 +257,7 @@ footer {
 @font-face {
   font-family: 'Georgia Local';
   /* normal */
-  src: url('../assets/fonts/Georgia.ttf') format('woff');
+  src: url('../static/fonts/Georgia.ttf') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -265,7 +265,7 @@ footer {
 @font-face {
   font-family: 'Georgia Local';
   /* italic */
-  src: url('../assets/fonts/Georgia Italic.ttf') format('woff');
+  src: url('../static/fonts/Georgia Italic.ttf') format('woff');
   font-weight: normal;
   font-style: italic;
 }
@@ -273,7 +273,7 @@ footer {
 @font-face {
   font-family: 'Georgia Local';
   /* bold */
-  src: url('../assets/fonts/Georgia Bold.ttf') format('woff');
+  src: url('../static/fonts/Georgia Bold.ttf') format('woff');
   font-weight: bold;
   font-style: normal;
 }
@@ -281,7 +281,7 @@ footer {
 @font-face {
   font-family: 'Georgia Local';
   /* bold */
-  src: url('../assets/fonts/Georgia Bold Italic.ttf') format('woff');
+  src: url('../static/fonts/Georgia Bold Italic.ttf') format('woff');
   font-weight: bold;
   font-style: italic;
 }
