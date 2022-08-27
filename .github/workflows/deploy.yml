@@ -30,6 +30,8 @@ jobs:
         with:
           args: >-
             --template=templates/index.html
+            --citeproc
+            --lua-filter=bold_me_in_bib.lua
             --output=index.html
             index.md
       - name: Upload artifact
