@@ -26,7 +26,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Build the website using Pandoc
-        uses: docker://pandoc/latex:2.9
+        uses: docker://pandoc/core:2.19
         with:
           args: >-
             --template=templates/index.html
