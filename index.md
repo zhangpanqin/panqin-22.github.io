@@ -1,6 +1,7 @@
 ---
-pagetitle: Yuxiang's Personal Website
+title: Yuxiang's Personal Website
 name: Yuxiang Wei
+date: 08/29/2022
 photo_path: ./static/images/yuxiang.jpg
 email_school: ywei40@illinois.edu
 email_personal: yuxiang630.wei@gmail.com
